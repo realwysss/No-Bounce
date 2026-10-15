@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "nobounce",
+	"version": "${version}",
+	"name": "No Bounce",
+	"description": "removes the hotbar bounce when the server gives your items back (crystals on high ping) and fades the stack number into the new number instead of snapping.",
+	"authors": ["wysss"],
+	"contact": {"sources": "https://github.com/realwysss/No-Bounce"},
+	"license": "All-Rights-Reserved",
+	"icon": "assets/nobounce/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["dev.nobn.NoBn"],
+		"modmenu": ["dev.nobn.ModmenuIntgr"]
+	},
+	"mixins": [
+		{
+			"config": "nobounce.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"suggests": {
+		"modmenu": "*",
+		"cloth-config": "*"
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "1.21.11",
+		"java": ">=21"
+	}
+}
