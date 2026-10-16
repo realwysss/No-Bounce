@@ -4,7 +4,7 @@
 
 on high ping your client places a crystal and counts it as used, then the server gives it back and your hotbar item jumps up and the number snaps to the old one. this mod removes the jump and fades the number into the new number instead.
 
-client side fabric mod for 1.21.11. settings through mod menu with cloth config:
+client side fabric mod for 1.21.11. settings with the menu (key **Z** or mod menu, needs [Wysss Library](https://github.com/realwysss/Wysss-Library)):
 
 - **no bounce**: removes the pop animation of the hotbar item when the server hands items back (works for every item, not just crystals)
 - **fade number**: the stack number fades from the old number into the new one instead of snapping
@@ -12,7 +12,7 @@ client side fabric mod for 1.21.11. settings through mod menu with cloth config:
 
 ## download
 
-`no-bounce-mc1.21.11-1.0.0.jar` on the releases page. minecraft 1.21.11, fabric loader 0.16 or newer.
+`no-bounce-mc1.21.11-1.1.0.jar` on the releases page. minecraft 1.21.11, fabric loader 0.16 or newer.
 
 ## pictures
 
